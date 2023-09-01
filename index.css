@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Phudu', cursive;
+    text-decoration: none;
 }
 
 /* index */
@@ -48,6 +49,7 @@ h2{
     padding: 50px;
     margin: 15px;
 }
+/* navegador */
 .liNav{
     display: inline;
 }
@@ -56,11 +58,6 @@ h2{
     padding: 50px;
     text-align: center;
 }
-table{
-    height: 100%;
-    width: 100%;
-}
-
 li a{
     margin: 35px;
     padding: 15px;
@@ -74,4 +71,87 @@ li a{
 }
 .fondoActividades{
     background-color: gray;
+}
+/* turismo */
+.fondoTurismo{
+    background-color: gray;
+}
+.divTurismo{
+    padding: 20px;
+    text-align: center;
+}
+.divTurismo a{
+    margin: 25px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 15px;
+}
+.divTabla{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    border: solid 5px;
+}
+thead th{
+    border: solid 2px;
+}
+tbody th{
+    border: solid 2px;
+}
+th img{
+    width: 400px;
+}
+/* entretenimiento */
+.fondoEntretenimiento{
+    background-color: gray;
+}
+.containerEntretenimiento{
+    position: static;
+}
+.imgEntretenimiento{
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    border: solid 2px;
+    width: 500px;
+}
+.volverA{
+    margin: 20px;
+    padding: 12px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+/* entretenimiento1 */
+.fondoEntretenimiento1{
+    background-color: gray;
+}
+.contenedorTeatro{
+
+}
+/* entretenimiento2 */
+.fondoEntretenimiento2{
+    background-color: gray;
+}
+/* entretenimiento3 */
+.fondoEntretenimiento3{
+    background-color: gray;
+}
+/* form  */
+.fondoForm{
+    background-color: gray;
+}
+.contenedorForm{
+    padding: 50px;
+}
+form{
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(112, 112, 146);
+    text-align: center;
+    border: solid 1px black;
+}
+.tamañoInput{
+    padding-inline: 120px;
 }

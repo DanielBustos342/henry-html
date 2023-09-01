@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body class="fondoForm">
     <div class="divNav">
         <nav>
             <ul>
@@ -22,13 +22,13 @@
             </ul>
         </nav>
     </div>
-
+<div class="contenedorForm">
     <form action="mailto:daniel.kpo.342@gmail.com" method="post" enctype="multipart/form-data">
-        <label for="nombre">nombre completo:</label>
-        <input type="text" name="nombre" value="">
+        <label for="nombre">nombre completo:</label><br>
+        <input class="tamañoInput" type="text" name="nombre" value="">
 <br>
-        <label for="email">Correo electronico</label>
-        <input type="email" name="email" value="">
+        <label for="email">Correo electronico:</label><br>
+        <input class="tamañoInput" type="email" name="email" value="">
 <br>
         <!-- <label for="genero">genero:</label>
         <input type="radio" name="genero" id="femenino" value="f">
@@ -42,12 +42,13 @@
             <option value="M">medium</option>
             <option value="S">small</option>
         </select> -->
-
-        <label for="consulta">conslta:</label>
-        <textarea name="consulta" cols="33" rows="5"></textarea>
+<br>
+        <label for="consulta">consulta:</label><br>
+        <textarea class="tamañoInput" name="consulta" cols="33" rows="5"></textarea>
 <br>
         <input type="submit" value="Enviar">
         <input type="reset" value="Borrar">
     </form>
+</div>
 </body>
 </html>
